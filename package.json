@@ -1,0 +1,12 @@
+{
+  "name": "com.loderunner.composite-tween",
+  "version": "1.0.0",
+  "displayName": "Composite-Tween",
+  "description": "Composite-Tween is an extension for the Composite that implements basic inspector-embedded tweening functionality powered by DoTween.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Daniil Kotelnikov",
+    "email": "xloderunnerx@gmail.com",
+    "url": "https://github.com/xloderunnerx/Composite-Tween"
+  }
+}
