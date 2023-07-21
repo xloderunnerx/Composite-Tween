@@ -17,6 +17,7 @@ namespace CompositeTween.Node
         {
             sequence = base.GetSequence();
             sequence.Insert(insertTime, image.DOColor(endColor, duration).SetEase(ease));
+            sequence.Insert(insertTime, image.DOFade(endColor.a, duration).SetEase(ease));
             return sequence;
         }
     }
