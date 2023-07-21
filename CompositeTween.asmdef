@@ -1,0 +1,18 @@
+{
+    "name": "CompositeTween",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f9972cafa52dc4e45a413ac7780ccdfc",
+        "GUID:73106583b323919458c1e05166706ce3",
+        "GUID:52233ac68b3ecf54eaa3754c1ac844d3"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
