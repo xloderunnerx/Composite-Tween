@@ -11,11 +11,11 @@ namespace CompositeTween.Node
 
         public override Sequence GetSequence()
         {
+            Debug.Log("Particles Sequence Creation");
             sequence = base.GetSequence();
             var timer = duration;
             sequence.Insert(insertTime, DOTween.To(() => timer, x => timer = x, 0, duration));
-            sequence.OnRewind(() => particleSystem.Play());
-            sequence.OnStart(() => particleSystem.Play());
+            sequence.InsertCallback(insertTime, () => particleSystem.Play());
             sequence.OnComplete(() => particleSystem.Stop());
             return sequence;
         }
