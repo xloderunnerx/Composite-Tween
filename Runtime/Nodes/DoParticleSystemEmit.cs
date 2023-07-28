@@ -6,7 +6,6 @@ using UnityEngine;
 
 namespace CompositeTween.Node
 {
-    [Tooltip("Particle System will Emit 'Count' of particles on 'Duration' timer depletion.")]
     public class DoParticleSystemEmit : TweenNode
     {
         [SerializeField] private ParticleSystem particleSystem;
