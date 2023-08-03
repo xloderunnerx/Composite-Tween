@@ -6,6 +6,7 @@ using UnityEngine;
 
 namespace CompositeTween.Node
 {
+    [System.Serializable]
     public class DoSizeNode : TweenNode
     {
         [SerializeField] private RectTransform transform;

@@ -6,6 +6,7 @@ using UnityEngine;
 
 namespace CompositeTween.Node
 {
+    [System.Serializable]
     public class DoRotateZMode : TweenNode
     {
         [SerializeField] private RectTransform transform;

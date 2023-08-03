@@ -6,6 +6,7 @@ using UnityEngine;
 
 namespace CompositeTween.Node
 {
+    [System.Serializable]
     public class DoParticleSystemEmit : TweenNode
     {
         [SerializeField] private ParticleSystem particleSystem;

@@ -6,6 +6,7 @@ using UnityEngine;
 
 namespace CompositeTween.Node
 {
+    [System.Serializable]
     public class DoAnchoredPositionNode : TweenNode
     {
         [SerializeField] private RectTransform transform;

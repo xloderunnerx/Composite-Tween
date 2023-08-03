@@ -7,6 +7,7 @@ using UnityEngine;
 
 namespace CompositeTween.Node
 {
+    [System.Serializable]
     public class DoLocalPathNode : TweenNode
     {
         [SerializeField] private RectTransform transform;
