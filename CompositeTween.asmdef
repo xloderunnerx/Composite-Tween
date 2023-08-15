@@ -4,7 +4,8 @@
     "references": [
         "Composite",
         "Textus.SerializeReferenceUI",
-        "DOTween.Modules"
+        "DOTween.Modules",
+        "Unity.TextMeshPro"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
