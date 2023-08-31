@@ -1,5 +1,6 @@
 using Composite.Core;
 using DG.Tweening;
+using Sirenix.Serialization;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -11,8 +12,7 @@ namespace CompositeTween.Core
     {
         [SerializeField] protected Sequence sequence;
         [SerializeReference]
-        [SerializeReferenceButton]
-        [SerializeReferenceMenu]
+        [OdinSerialize]
         protected List<TweenNode> tweenGroup;
         [SerializeField] protected int loops;
 

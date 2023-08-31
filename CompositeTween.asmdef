@@ -3,9 +3,10 @@
     "rootNamespace": "",
     "references": [
         "Composite",
-        "Textus.SerializeReferenceUI",
         "DOTween.Modules",
-        "Unity.TextMeshPro"
+        "Unity.TextMeshPro",
+        "SerializeReferenceDropdownEditor",
+        "SerializeReferenceDropdownRuntime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
